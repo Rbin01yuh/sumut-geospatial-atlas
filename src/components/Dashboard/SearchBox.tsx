@@ -49,7 +49,7 @@ export default function SearchBox({ regions, onSelect }: SearchBoxProps) {
           ref={inputRef}
           type="text"
           placeholder="Cari kabupaten atau kota..."
-          className="w-full h-11 pl-10 pr-9 rounded-xl bg-slate-950/70 border border-slate-800/90 text-sm font-medium text-slate-100 placeholder:text-slate-500 focus:outline-none focus:border-sky-500/50 focus:ring-2 focus:ring-sky-500/20 transition-all shadow-inner"
+          className="w-full h-11 pl-11 pr-10 rounded-xl bg-slate-900/90 border border-slate-700/80 text-sm font-medium text-slate-100 placeholder:text-slate-500 focus:outline-none focus:border-sky-500/60 focus:ring-2 focus:ring-sky-500/20 transition-all shadow-inner"
           onChange={e => {
             handleInput(e.target.value);
             setOpen(true);

@@ -53,7 +53,7 @@ export default function RankingPanel({
         </span>
       </div>
 
-      <div className="space-y-1.5 overflow-y-auto pr-1 flex-1 max-h-[calc(100vh-360px)]">
+      <div className="space-y-1.5 overflow-y-auto pr-1 flex-1 max-h-[calc(100vh-360px)] pb-4">
         {ranked.map((region, i) => {
           const value = getMetricValue(region, metric);
           const isSelected = region.kode_wilayah_dagri === selectedCode;
